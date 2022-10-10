@@ -1,32 +1,23 @@
 # SQL_For_Datascience_Yelp_Dataset
 Coursera-SQL for Data Science-Yelp Dataset SQL Lookup-Final Project
 
+The dataset used is from a US-based organization called Yelp, which provides a platform for users to provide reviews and rate their interactions with a variety of organizations – businesses, restaurants, health clubs, hospitals, local governmental offices, charitable organizations, etc. Yelp has made a portion of this data available for personal, educational, and academic purposes.
+
+
 Part 1: Yelp Dataset Profiling and Understanding
 
-1. Profile the data by finding the total number of records for each of the tables below:
-	
-i. Attribute table = 10000
-ii. Business table = 10000
-iii. Category table = 10000 
-iv. Checkin table = 10000 
-v. elite_years table =10000 
-vi. friend table = 10000 
-vii. hours table = 10000 
-viii. photo table = 10000 
-ix. review table = 10000 
-x. tip table = 10000 
-xi. user table = 10000
+I did data profiling to help profile and better understand the data in the first part of the assignment.
+1. check count of values in each column
+2. total distinct records by primary/foreign key 
+3. checking for null values 
+5. provided answers to the series of questions regarding the data
 
-Code:
-SELECT
-(SELECT COUNT(*)FROM Attribute) AS Attribute_count,
-(SELECT COUNT(*)FROM Business) AS Business_count,
-(SELECT COUNT(*)FROM Category) AS Category_count,
-(SELECT COUNT(*)FROM Checkin) AS Checkin_count,
-(SELECT COUNT(*)FROM elite_years) AS elite_years_count,
-(SELECT COUNT(*)FROM friend) AS friend_count,
-(SELECT COUNT(*)FROM hours) AS hours_count,
-(SELECT COUNT(*)FROM photo) AS photo_count,
-(SELECT COUNT(*)FROM review) AS review_count,
-(SELECT COUNT(*)FROM tip) AS tip_count,
-(SELECT COUNT(*)FROM user) AS user_count;
+Part 2: Inferences and Analysis
+
+In the second part, I have done my own analysis for the dataset where I have analysed which is the more successful category of business based on the no. of companies, reviews and star rating.
+
+I have referred to the ER Diagram for more detailed information on the dataset.
+
+SQL Queries used: COUNT, COUNT DISTINCT, SUBQUERIES, WHERE CLAUSE, AND, OR, MIN, MAX, AVG, AS, SUM, GROUP BY, HAVING, ORDER BY, LIMIT, LIKE %, ORDER BY DESC, INNER JOIN, ALIASES.
+
+Kindly,refer to the attached file for the SQL codes and analysis.
